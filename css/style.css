@@ -1,0 +1,76 @@
+body {
+    background-color: #e6dad1;
+}
+
+.container {
+    max-width: 1088px;
+}
+
+h1 {
+    font-family: "Pacifico", serif;
+    font-weight: 400;
+    font-style: normal;
+    display: block;
+    width: 100%;
+}
+
+h1, h2 {
+    margin-bottom: 25px;
+}
+
+p {
+    display: block;
+    width: 100%;
+}
+
+.foto {
+    border-radius: 45% 45% 0 0;
+    height: 200px;
+    width: 200px;
+    background-image: url(../assets/patricia2.jpg);
+    background-size: 800%;
+    background-position: -525px -160px;
+}
+
+.card {
+    border-radius: 10px;
+    width: 336px;
+    margin: 0 11px 22px;
+    background-color: #bb9273;
+}
+
+.card:first-child {
+    margin-left: 0;
+}
+
+.card:nth-child(3) {
+    margin-right: 0;
+}
+
+.card:nth-child(4) {
+    margin-left: 0;
+}
+
+.card-img {
+    border-radius: 10px 10px 0 0;
+    background-color: white;
+    height: 160px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.card-img img {
+    height: auto;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.bottom-container {
+    padding: 50px 0 20px;
+}
+
+.bottom-container a {
+    font-family: "Montserrat", sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
