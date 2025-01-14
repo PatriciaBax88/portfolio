@@ -25,11 +25,11 @@ p {
 
 .foto {
     border-radius: 45% 45% 0 0;
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 250px;
     background-image: url(../assets/patricia2.jpg);
     background-size: 800%;
-    background-position: -525px -160px;
+    background-position: -635px -200px;
 }
 
 .card {
